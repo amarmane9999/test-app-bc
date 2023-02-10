@@ -1,0 +1,28 @@
+<project-repositories>
+  <repositories>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/home/jboss/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>nexus</id>
+        <url>http://nexusrepo-sonatype-nexus-service.nexus.svc.cluster.local:8081/repository/releases</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>mirror.default</id>
+        <url>http://nexusrepo-sonatype-nexus-service.nexus.svc.cluster.local:8081/repository/rhpam_maven_group/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+  </repositories>
+</project-repositories>
